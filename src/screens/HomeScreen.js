@@ -12,7 +12,7 @@ const HomeScreen = () => {
             <Nav />
             <Banner />
             <Row 
-            title= 'NETFLIX ORIGINALS'
+            title= 'Moviehub ORIGINALS'
             fetchUrl={requests.fetchNetflixOriginals}
             isLargeRow
             />
