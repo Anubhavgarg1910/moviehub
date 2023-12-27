@@ -13,7 +13,7 @@
   padding: 10px 20px;
   font-size: 1rem;
   color: #fff;
-  background-color: #e50914;
+  background-color: #1f797f;
   cursor: pointer;
   font-weight: 600;
   border: none;
@@ -72,18 +72,6 @@
   margin: 20px;
 }
 
-/* .loginScreen__input > form > input {
-  padding: 10px;
-  outline-width: 0;
-  height: 30px;
-  width: 30%;
-  border: none;
-  max-width: 600px;
-  display: inline-block;
-padding: 10px 15px;
-font-size: 20px;
-  
-} */
 .loginScreen__input > form > input {
   outline-width: 0;
   height: 30px;
@@ -95,22 +83,9 @@ font-size: 20px;
   font-size: 10px;
 }
 
-/* .loginScreen__getStarted {
-  
-  padding: 16px 20px;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #e50914;
-  font-weight: 600;
-  cursor: pointer;
-  border: none;
-  display: inline-block;
-padding: 10px 15px;
-font-size: 20px;
-} */
 .loginScreen__getStarted {
   color: #fff;
-  background-color: #e50914;
+  background-color: #1f797f;
   font-weight: 600;
   cursor: pointer;
   border: none;
