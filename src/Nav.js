@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Nav.css";
+import logo from "./moviehubLogo.png"
 
 function Nav() {
   const [show, handleShow] = useState(false);
@@ -23,8 +24,8 @@ function Nav() {
       <div className="nav__contents">
         <img
           onClick={() => history("/")}
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
-          alt="netflix-logo"
+          src={logo}
+          alt="moviehub-logo"
           className="nav__logo"
         />
 
